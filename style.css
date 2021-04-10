@@ -27,6 +27,9 @@ body {
 }
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
     padding: 3rem 1rem;
     max-width: 45rem;
@@ -47,26 +50,26 @@ footer {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Roboto Slab", sans-serif;
-    color: #007031;
+    color: #008d3e;
 }
 
 h1 {
+    margin-left: 2rem;
     font-size: 3rem;
     color: #eee;
 }
 
 a {
-    color: #007031;
+    color: #008d3e;
+}
+
+.header-logo {
+    width: 10rem;
+    float: left;
 }
 
 .highlite {
-    color: #007031;
-}
-
-.name {
-    display: inline-block;
-    margin-bottom: 0;
-    margin-top: 0;
+    color: #008d3e;
 }
 
 .blurb {
